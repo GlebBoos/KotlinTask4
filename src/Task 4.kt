@@ -1,4 +1,16 @@
 fun main(args: Array<String>) {
+    val auto: Auto = Auto("Audi", "Black",666)
+    println(auto.toString())
+}
+
+data class Auto(var marka: String, var color: String, var nubmer: Int)
+
+
+
+//Задача 22
+
+/*
+fun main(args: Array<String>) {
     var K1:Boeing747=Boeing747(1000)
     var K2:Airbus=Airbus(2000)
     K1.display()
@@ -55,6 +67,7 @@ class Airbus(vmest_pass:Int):Aircraft(nom_sud=744,max_dal = 100000.0,vm_bal = 80
 }
 
 
+ */
 
 //Задача 21
 
